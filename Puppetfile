@@ -22,7 +22,7 @@ mod "stahnma/epel",           '1.2.2'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/tickbox-smc/puppet-ssh-my.git',
+  :git => 'https://github.com/tickbox-smc/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
@@ -30,13 +30,13 @@ mod 'ntp',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/tickbox-smc/puppet-role-my.git',
+  :git => 'https://github.com/tickbox-smc/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'git@github.com:tickbox-smc/puppet-profile-my.git',
+  :git => 'git@github.com:tickbox-smc/puppet-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'git@github.com:tickbox-smc/puppet-nginx-my.git',
+  :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
   :ref => 'master'
