@@ -37,6 +37,6 @@ mod 'profile',
   :git => 'git@github.com:tickbox-smc/puppet-profile-my.git',
   :ref => 'master'
 
-mod 'nginx',
-  :git => 'git@github.com:tickbox-smc/puppet-nginx-my.git',
-  :ref => 'master'
+#mod 'nginx',
+#  :git => 'git@github.com:tickbox-smc/puppet-nginx-my.git',
+#  :ref => 'master'
