@@ -28,13 +28,13 @@ node 'puppet' {
   notify { 'This matches the puppet master!!!':  }
 }
 
-node 'agent' {
-  notify { 'This matches the puppet agent!!!': }
+node '/^agent1/' {
+  notify { 'This matches the puppet agent1!!!': }
 }
 
 node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  notify { 'This is the default node classifier':  }
+  notify { 'This is the default node':  }
 }
