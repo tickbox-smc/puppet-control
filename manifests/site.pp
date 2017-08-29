@@ -28,7 +28,7 @@ node 'puppet' {
   notify { 'This matches the puppet master!!!':  }
 }
 
-node '/^agent1/' {
+node /^agent1/ {
   notify { 'This matches the puppet agent1!!!': }
 }
 
