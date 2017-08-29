@@ -31,11 +31,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/tickbox-smc/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'git@github.com:tickbox-smc/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'nginx',
   :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
