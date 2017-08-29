@@ -24,14 +24,17 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node 'tthomsen1.mylabserver.com' {
-  include pe_repo::platform::el_6_x86_64
-  include pe_repo::platform::ubuntu_1204_amd64
+node 'puppet' {
+  notify { 'This matches the puppet master!!!':  }
+}
+
+node 'agent' {
+  notify { 'This matches the puppet agent!!!': }
 }
 
 node default {
-  hiera_include('classes')
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  notify { 'This is the default node classifier':  }
 }
