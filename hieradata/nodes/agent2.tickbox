@@ -8,4 +8,3 @@ profile::nginx::vhosts:
    'server_aliases': ''
 classes:
  - profile::nginx
-
