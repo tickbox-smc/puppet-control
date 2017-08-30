@@ -28,8 +28,14 @@ node 'puppet' {
   notify { 'This matches the puppet master!!!':  }
 }
 
-node /^agent/ {
-  notify { 'This matches the puppet agent!!!': }
+node /^agent2/ {
+  notify { 'test-message-for-agent2':
+    message => 'This is agent2 using a node definition'
+  }
+}
+
+node /^agent1/ {
+  notify { 'This matches the puppet agent1!!!': }
 }
 
 node default {
