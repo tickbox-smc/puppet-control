@@ -36,7 +36,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'git@github.com:tickbox-smc/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'xo-development'
 
 mod 'nginx',
   :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
