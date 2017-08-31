@@ -34,9 +34,9 @@ node 'puppet' {
 #  }
 #}
 
-node /^agent1/ {
-  notify { 'This matches the puppet agent1!!!': }
-}
+#node /^agent1/ {
+#  notify { 'This matches the puppet agent1!!!': }
+#}
 
 node default {
   hiera_include ('classes')

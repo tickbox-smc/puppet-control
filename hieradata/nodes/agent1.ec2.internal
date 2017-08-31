@@ -1,0 +1,7 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'agent01.ec2.internal'
+   'port': 80
+   'server_aliases': ''
+classes:
+ - profile::nginx
