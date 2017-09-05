@@ -33,6 +33,7 @@ node 'agent' {
 }
 
 node default {
+  hiera_include('classes')
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
