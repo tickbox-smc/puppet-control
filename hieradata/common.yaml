@@ -7,5 +7,4 @@ profile::base::ntp_servers:
 profile::apache::default_vhost: false
 classes:
  - profile::base
- - profile::python
 
