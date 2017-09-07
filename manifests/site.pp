@@ -28,10 +28,6 @@ node 'puppet' {
   notify { 'This matches the puppet master!!!':  }
 }
 
-node 'agent' {
-  notify { 'This matches the puppet agent!!!': }
-}
-
 node default {
   hiera_include('classes')
   # This is where you can declare classes for all nodes.
