@@ -11,6 +11,8 @@ mod "garethr/docker",         '5.3.0'
 mod "puppetlabs/apt",         '2.3.0'
 mod "stahnma/epel",           '1.2.2'
 mod "stankevich/python",      '1.18.2'
+mod 'kemra102-ius',           '1.1.0'
+mod 'yuav-pip',               '0.2.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
