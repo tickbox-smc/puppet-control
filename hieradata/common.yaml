@@ -5,4 +5,5 @@ profile::base::ntp_servers:
   - 2.ubunut.pool.ntp.org
   - 3.ubunut.pool.ntp.org
 classes:
- - profile::base
+ - yumrepos::epel
+ - yumrepos::ius
