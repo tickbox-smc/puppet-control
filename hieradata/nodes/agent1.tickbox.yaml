@@ -2,4 +2,4 @@
 classes:
  - yumrepos::epel
  - yumrepos::ius
-
+ - profile::selinux
