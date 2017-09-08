@@ -1,4 +1,6 @@
 ---
 classes:
- - ius
+ - yumrepos::ius
+ - yumrepos::puppetlabs
+ - yumrepos::repoforge 
 
