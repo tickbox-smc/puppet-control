@@ -3,3 +3,4 @@ classes:
  - yumrepos::epel
  - yumrepos::ius
  - profile::selinux
+ - profile::python
