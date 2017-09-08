@@ -1,5 +1,6 @@
 ---
 classes:
+ - yumrepos::epel
  - yumrepos::ius
  - yumrepos::puppetlabs
  - yumrepos::repoforge 
