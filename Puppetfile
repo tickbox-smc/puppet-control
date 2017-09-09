@@ -12,3 +12,6 @@ mod 'ntp',
   :git => 'https://github.com/tickbox-smc/puppet-ntp.git',
   :ref => 'master'
 
+mod 'python',
+  :git => 'https://github.com/tickbox-smc/puppet-python.git',
+  :ref => 'master'
