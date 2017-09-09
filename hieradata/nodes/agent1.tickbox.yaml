@@ -1,4 +1,4 @@
 ---
 classes:
  - profile::selinux
- - profile::pythone
+ - profile::python
