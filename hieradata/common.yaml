@@ -1,4 +1,17 @@
 ---
+profile::accounts::host_key:
+  - puppet.tickbox:
+    alias: puppet
+    key:
+    type: ssh-rsa
+  - agent1.tickbox:
+    alias: agent1
+    key:
+    type: ssh-rsa
+  - agent2.tickbox:
+    alias: agent2
+    key:
+    type: ssh-rsa
 profile::base::ntp_servers:
   - 0.ubunut.pool.ntp.org
   - 1.ubunut.pool.ntp.org

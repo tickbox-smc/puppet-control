@@ -6,7 +6,8 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.19.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppet/selinux",         '0.8.0'
-mod 'tag1-yumrepos',           '0.9.2'
+mod 'tag1-yumrepos',          '0.9.2'
+mod 'ghoneycutt-ssh',         '3.54.0'
 
 mod 'ntp',
   :git => 'https://github.com/tickbox-smc/puppet-ntp.git',
