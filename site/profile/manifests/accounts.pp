@@ -25,7 +25,7 @@ class profile::accounts(
   },
 
 ) {
-  include ::accounts
+  class { '::accounts': }
   create_resources(group, $groups_hash)
   create_resources(::accounts::user, $users_hash)
 }
