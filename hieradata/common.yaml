@@ -1,4 +1,7 @@
 ---
+profile::accounts::host_keys:
+  - 'ssh-rsa AAAsss8888'
+  - 'ssh-dsa GGGasdasdsadsd' 
 profile::base::ntp_servers:
   - 0.ubunut.pool.ntp.org
   - 1.ubunut.pool.ntp.org
