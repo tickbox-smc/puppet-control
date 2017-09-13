@@ -2,3 +2,4 @@
 classes:
  - profile::selinux
  - profile::python
+ - profile::accounts
