@@ -1,5 +1,5 @@
 class profile::accounts(
-  Hash $host_keys,
+  $host_keys,
   Hash $groups_hash = {
     'admin'       => { gid => '3000' },
     'sudo'        => { gid => '3001' },
