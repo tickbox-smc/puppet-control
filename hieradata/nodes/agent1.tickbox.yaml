@@ -5,4 +5,4 @@ profile::accounts::host_keys:
 classes:
  - profile::selinux
  - profile::python
- - profile::accounts
+ - profile::users
