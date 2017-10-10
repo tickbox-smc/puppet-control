@@ -8,6 +8,7 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppet/selinux",         '0.8.0'
 mod 'tag1-yumrepos',          '0.9.2'
 mod 'puppetlabs-accounts',    '1.1.0'
+mod 'Aethylred-keymaster',    '0.3.3'
 
 mod 'ntp',
   :git => 'https://github.com/tickbox-smc/puppet-ntp.git',
