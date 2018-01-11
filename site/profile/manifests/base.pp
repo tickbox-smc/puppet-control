@@ -1,6 +1,6 @@
 class profile::base (
 
-  $password = lookup('profile::nginx::vhosts::password'),
+  $password = 'poop', #lookup('profile::nginx::vhosts::password'),
 
 ){
 
