@@ -2,14 +2,21 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod "puppetlabs/inifile",     '1.5.0'
-mod "puppetlabs/stdlib",      '4.11.0'
-mod "puppetlabs/concat",      '2.1.0'
-mod "puppetlabs/java",        '1.6.0'
-mod "puppet/selinux",         '0.8.0'
-mod "garethr/docker",         '5.3.0'
-mod "puppetlabs/apt",         '2.3.0'
-mod "stahnma/epel",           '1.2.2'
+mod "puppetlabs/inifile",       '1.5.0'
+mod "puppetlabs/stdlib",        '4.11.0'
+mod "puppetlabs/concat",        '2.1.0'
+mod "puppetlabs/java",          '1.6.0'
+mod "puppet/selinux",           '0.8.0'
+mod "garethr/docker",           '5.3.0'
+mod "puppetlabs/apt",           '2.3.0'
+mod "stahnma/epel",             '1.2.2'
+mod "puppetlabs-app_modeling",  '0.2.0'
+mod "puppetlabs-firewall",      '1.11.0'
+mod "puppetlabs-mysql",         '3.11.0'
+mod "puppetlabs-apache",        '1.11.1'
+mod "hunner-wordpress",         '1.0.0'
+mod "puppetlabs-haproxy",       '1.5.0' 
+mod "puppetlabs-wordpress_app", '0.2.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -40,3 +47,5 @@ mod "stahnma/epel",           '1.2.2'
 #mod 'nginx',
 #  :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
 #  :ref => 'master'
+
+
