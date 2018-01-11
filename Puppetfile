@@ -21,22 +21,22 @@ mod "stahnma/epel",           '1.2.2'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ssh',
-  :git => 'https://github.com/tickbox-smc/puppet-ssh.git',
-  :ref => 'master'
+#mod 'ssh',
+#  :git => 'https://github.com/tickbox-smc/puppet-ssh.git',
+#  :ref => 'master'
 
-mod 'ntp',
-  :git => 'https://github.com/tickbox-smc/puppet-ntp.git',
-  :ref => 'master'
+#mod 'ntp',
+#  :git => 'https://github.com/tickbox-smc/puppet-ntp.git',
+#  :ref => 'master'
 
-mod 'role',
-  :git => 'https://github.com/tickbox-smc/puppet-role.git',
-  :ref => 'master'
+#mod 'role',
+#  :git => 'https://github.com/tickbox-smc/puppet-role.git',
+#  :ref => 'master'
 
-mod 'profile',
-  :git => 'git@github.com:tickbox-smc/puppet-profile.git',
-  :ref => 'master'
+#mod 'profile',
+#  :git => 'git@github.com:tickbox-smc/puppet-profile.git',
+#  :ref => 'master'
 
-mod 'nginx',
-  :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
-  :ref => 'master'
+#mod 'nginx',
+#  :git => 'git@github.com:tickbox-smc/puppet-nginx.git',
+#  :ref => 'master'
