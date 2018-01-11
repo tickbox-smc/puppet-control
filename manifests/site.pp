@@ -31,8 +31,18 @@ node 'puppet' {
   notify { 'This matches the puppet master!!!':  }
 }
 
-node 'agent' {
-  notify { 'This matches the puppet agent!!!': }
+node 'agent1' {
+  notify { 'This matches the puppet agent1!!!': }
+
+  # Example code to be added to the site.pp
+  wordpress_app::simple { 'all_in_one':
+    nodes => {
+      Node['agent1.tickbox'] => [
+        Wordpress_app::Database['all_in_one'],
+        Wordpress_app::Web['all_in_one'],
+      ]
+    }
+  }
 }
 
 node default {
