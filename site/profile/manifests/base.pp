@@ -4,7 +4,7 @@ class profile::base (
 
 ){
 
-  notice { "password = ${password}": }
+  notify { "password = ${password}": }
   notify { 'This is profile::base':  }
 
 }
