@@ -57,7 +57,7 @@ site {
   ao_website { 'ao_website':
     #Our application has two input parameters: the number of web servers and load balancers in our application
     number_webs => 2,
-    number_lbs => 2,
+    number_lbs => 1,
     nodes => {
       #Bind your puppet nodes to the correct component
       Node['agent3.tickbox'] => [Ao_website::Web['ao_website-web-0']],
