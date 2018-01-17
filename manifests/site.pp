@@ -53,8 +53,8 @@ node default {
 }
 
 site {
-    #Instantiate ao_website and give it a name
-    ao_website { 'ao_website':
+  #Instantiate ao_website and give it a name
+  ao_website { 'ao_website':
     #Our application has two input parameters: the number of web servers and load balancers in our application
     number_webs => 2,
     number_lbs => 1,
@@ -65,5 +65,5 @@ site {
       Node['agent1.tickbox'] => [Ao_website::Lb['ao_website-lb-0']],
       Node['agent2.tickbox'] => [Ao_website::Db['ao_website']],
     }
+  }
 }
-
