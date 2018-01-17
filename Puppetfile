@@ -22,7 +22,7 @@ mod 'jlambert121/yum',          '0.2.1'
 # Modules from Git
 
 mod 'ao_website',
-  :git    => 'git@github.com:tickbox-smc/ao_website.git'
+  :git    => 'git@github.com:tickbox-smc/ao_website.git',
   :branch => 'master'
 
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
