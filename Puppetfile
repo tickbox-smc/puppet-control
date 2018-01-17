@@ -18,6 +18,7 @@ mod "hunner-wordpress",         '1.0.0'
 mod "puppetlabs-haproxy",       :latest 
 mod "puppetlabs-wordpress_app", '0.2.0'
 mod 'jlambert121/yum',          '0.2.1'
+mod 'puppet/staging',           '1.0.7'
 
 # Modules from Git
 
