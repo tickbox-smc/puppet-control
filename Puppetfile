@@ -13,12 +13,18 @@ mod "stahnma/epel",             '1.2.2'
 mod "puppetlabs-app_modeling",  '0.2.0'
 mod "puppetlabs-firewall",      '1.11.0'
 mod "puppetlabs-mysql",         '3.11.0'
-mod "puppetlabs-apache",        '1.11.1'
+mod "puppetlabs-apache",        :latest
 mod "hunner-wordpress",         '1.0.0'
-mod "puppetlabs-haproxy",       '1.5.0' 
+mod "puppetlabs-haproxy",       :latest 
 mod "puppetlabs-wordpress_app", '0.2.0'
+mod 'jlambert121/yum',          '0.2.1'
 
 # Modules from Git
+
+mod 'ao_website',
+  :git    => 'git@github.com:tickbox-smc/ao_website.git'
+  :branch => 'master'
+
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
