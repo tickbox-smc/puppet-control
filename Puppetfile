@@ -2,23 +2,23 @@
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod "puppetlabs/inifile",       '1.5.0'
+mod "puppetlabs/inifile",       :latest' #1.5.0'
 mod "puppetlabs/stdlib",        :latest
-mod "puppetlabs/concat",        '2.1.0'
-mod "puppetlabs/java",          '1.6.0'
-mod "puppet/selinux",           '0.8.0'
-mod "garethr/docker",           '5.3.0'
-mod "puppetlabs/apt",           '2.3.0'
-mod "stahnma/epel",             '1.2.2'
-mod "puppetlabs-app_modeling",  '0.2.0'
-mod "puppetlabs-firewall",      '1.11.0'
-mod "puppetlabs-mysql",         '3.11.0'
+mod "puppetlabs/concat",        :latest' #2.1.0'
+mod "puppetlabs/java",          :latest' #1.6.0'
+mod "puppet/selinux",           :latest' #0.8.0'
+mod "garethr/docker",           :latest' #5.3.0'
+mod "puppetlabs/apt",           :latest' #2.3.0'
+mod "stahnma/epel",             :latest' #1.2.2'
+mod "puppetlabs-app_modeling",  :latest' #0.2.0'
+mod "puppetlabs-firewall",      :latest' #1.11.0'
+mod "puppetlabs-mysql",         :latest' #3.11.0'
 mod "puppetlabs-apache",        :latest
-mod "hunner-wordpress",         '1.0.0'
+mod "hunner-wordpress",         :latest' #1.0.0'
 mod "puppetlabs-haproxy",       :latest 
-mod "puppetlabs-wordpress_app", '0.2.0'
-mod 'jlambert121/yum',          '0.2.1'
-mod 'puppet/staging',           '1.0.7'
+mod "puppetlabs-wordpress_app", :latest' #0.2.0'
+mod 'jlambert121/yum',          :latest' #0.2.1'
+mod 'puppet/staging',           :latest' #1.0.7'
 
 # Modules from Git
 
