@@ -16,7 +16,7 @@ mod "puppetlabs-mysql",         :latest
 mod "puppetlabs-apache",        :latest
 mod "hunner-wordpress",         :latest
 mod "puppetlabs-haproxy",       :latest 
-#mod "puppetlabs-wordpress_app", :latest
+mod "puppetlabs-wordpress_app", :latest
 mod 'jlambert121/yum',          :latest
 mod 'puppet/staging',           :latest
 
@@ -26,9 +26,9 @@ mod 'puppet/staging',           :latest
 #  :git    => 'git@github.com:tickbox-smc/ao_website.git',
 #  :branch => 'master'
 
-mod 'wordpress_app',
-  :git    => 'git@github.com:tickbox-smc/wordpress_app.git',
-  :branch => 'master'
+#mod 'wordpress_app',
+#  :git    => 'git@github.com:tickbox-smc/wordpress_app.git',
+#  :branch => 'master'
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
