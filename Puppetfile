@@ -22,9 +22,9 @@ mod 'puppet/staging',           :latest
 
 # Modules from Git
 
-mod 'ao_website',
-  :git    => 'git@github.com:tickbox-smc/ao_website.git',
-  :branch => 'master'
+#mod 'ao_website',
+#  :git    => 'git@github.com:tickbox-smc/ao_website.git',
+#  :branch => 'master'
 
 mod 'wordpress_app',
   :git    => 'git@github.com:tickbox-smc/wordpress_app.git',
