@@ -28,16 +28,16 @@ mod 'puppetlabs/firewall', '1.8.1'
 mod 'puppetlabs/haproxy', '1.3.0'
 mod 'puppetlabs/mysql', '3.6.1'
 mod 'puppetlabs/stdlib', '4.7.0'
-mod 'puppetlabs-wordpress_app', '0.1.0'
+#mod 'puppetlabs-wordpress_app', '0.1.0'
 # Modules from Git
 
 #mod 'ao_website',
 #  :git    => 'git@github.com:tickbox-smc/ao_website.git',
 #  :branch => 'master'
 
-#mod 'wordpress_app',
-#  :git    => 'git@github.com:tickbox-smc/wordpress_app.git',
-#  :branch => 'master'
+mod 'wordpress_app',
+  :git    => 'git@github.com:tickbox-smc/wordpress_app.git',
+  :branch => 'master'
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
