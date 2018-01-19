@@ -52,18 +52,30 @@ node default {
   notify { 'This is the default node classifier':  }
 }
 
+#site {
+#  #Instantiate ao_website and give it a name
+#  ao_website { 'ao_website':
+#    #Our application has two input parameters: the number of web servers and load balancers in our application
+#    number_webs => 2,
+#    number_lbs => 1,
+#    nodes => {
+#      #Bind your puppet nodes to the correct component
+#      Node['agent3.tickbox'] => [Ao_website::Web['ao_website-web-0']],
+#      Node['agent4.tickbox'] => [Ao_website::Web['ao_website-web-1']],
+#      Node['agent1.tickbox'] => [Ao_website::Lb['ao_website-lb-0']],
+#      Node['agent2.tickbox'] => [Ao_website::Db['ao_website']],
+#    }
+#  }
+
 site {
-  #Instantiate ao_website and give it a name
-  ao_website { 'ao_website':
-    #Our application has two input parameters: the number of web servers and load balancers in our application
-    number_webs => 2,
-    number_lbs => 1,
+  # Example code to be added to the site.pp
+  wordpress_app { 'tiered':
     nodes => {
-      #Bind your puppet nodes to the correct component
-      Node['agent3.tickbox'] => [Ao_website::Web['ao_website-web-0']],
-      Node['agent4.tickbox'] => [Ao_website::Web['ao_website-web-1']],
-      Node['agent1.tickbox'] => [Ao_website::Lb['ao_website-lb-0']],
-      Node['agent2.tickbox'] => [Ao_website::Db['ao_website']],
+      # The titles of these don't matter as long as they're unique per component.
+      Node['agent1.tickbox'] => Wordpress_app::Database['wordpress-db'],
+      Node['agent2.tickbox'] => Wordpress_app::Lb['tiered'],
+      Node['agent3.tickbox'] => Wordpress_app::Web['tiered-web01'],
+      Node['agent4.tickbox'] => Wordpress_app::Web['wordpress-web02'],
     }
   }
 }
