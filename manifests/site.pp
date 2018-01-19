@@ -73,7 +73,7 @@ site {
     nodes => {
       # The titles of these don't matter as long as they're unique per component.
       Node['agent1.tickbox'] => Wordpress_app::Database['wordpress-db'],
-      Node['agent2.tickbox'] => Wordpress_app::Lb['tiered'],
+      Node['agent2.tickbox'] => Wordpress_app::Lb['tiered-lb'],
       Node['agent3.tickbox'] => Wordpress_app::Web['tiered-web01'],
       Node['agent4.tickbox'] => Wordpress_app::Web['wordpress-web02'],
     }
